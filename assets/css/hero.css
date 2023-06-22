@@ -1,0 +1,81 @@
+.hero{
+    display: flex;
+    align-items: flex-end;
+    padding-top: 30px;
+}
+
+.hero__profile{
+    width: 23rem;
+    height: 23rem;
+    border-radius: 100%;
+}
+
+.hero__container{
+    width: 50rem;
+}
+
+.hero__title{
+    font-size: 3.25rem;
+    font-weight: 700;
+    padding-bottom: 20px;
+    background-image: linear-gradient(to left, #FFA6A6 25%, #FFC888);
+    background-size: 100%;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.hero__sub{
+    color: var(--color-cenizo56);
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.hero__description{
+    color: var(--color-cenizo56);
+    font-size: 1.25rem;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.hero__social{
+    display: flex;
+    gap: 2rem;
+}
+
+.hero__link{
+    display: flex;
+    align-items: center;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    color: var(--color-cenizo46);
+}
+
+.hero__link i{
+    font-size: 1.5rem;
+    padding-left: 10px;
+}
+
+.hero__link.hero__link--cv{
+    background: var(--color-rosa-peach);
+    transition: all .3s ease-in-out;
+}
+
+.hero__link.hero__link--cv:hover{
+    background: var(--color-rosa-fuerte);
+}
+
+.hero__link.hero__link--linkedin, 
+.hero__link.hero__link--github{
+    background: var(--color-amarillo-peach);
+    transition: all .3s ease-in-out;
+}
+
+.hero__link.hero__link--linkedin:hover, 
+.hero__link.hero__link--github:hover{
+    background: var(--color-amarillo-fuerte);
+}

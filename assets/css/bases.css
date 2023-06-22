@@ -3,6 +3,7 @@
 
     --color-rosa-fuerte: #FF7D7D;
     --color-rosa-peach: #FFC2C2;
+    --color-amarillo-fuerte: #ffc685;
     --color-amarillo-peach: #FFD7A8;
     --color-vainilla-claro: #FDEFDA;
     --color-fresa-claro: #FDE7EA;
@@ -16,4 +17,5 @@
 body{
     font-family: var(--poppins);
     padding: 0 9.5rem;
+    background-color: var(--background-blanco);
 }
