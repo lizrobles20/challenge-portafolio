@@ -1,3 +1,32 @@
 .about{
+    display: flex;
+    align-items: center;
     background-color: var(--color-rosa-peach);
+    margin-bottom: 60px;
+}
+
+.about__container{
+    display: flex;
+    width: 100%;
+}
+
+.about__title{
+    color: var(--color-cenizo46);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.about__description{
+    color: var(--color-cenizo46);
+    font-size: 1.25rem;
+    line-height: 1.4;
+}
+
+.about__img{
+    text-align: center;
+}
+
+.about__img--optional{
+    width: 400px;
 }

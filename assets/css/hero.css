@@ -3,6 +3,7 @@
     align-items: flex-end;
     padding-top: 30px;
     padding-bottom: 60px;
+    background-color: var(--background-blanco);
 }
 
 .hero__profile{
@@ -84,4 +85,5 @@
 .wave{
     position: relative;
     width: 100%;
+    background-color: var(--background-blanco);
 }
