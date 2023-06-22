@@ -1,0 +1,18 @@
+:root{
+    --background-blanco: #F5F5F5;
+
+    --color-rosa-peach: #FFC2C2;
+    --color-amarillo-peach: #FFD7A8;
+    --color-vainilla-claro: #FDEFDA;
+    --color-fresa-claro: #FDE7EA;
+
+    --color-cenizo56: #565656;
+    --color-cenizo46: #464646;
+
+    --poppins: 'Poppins', sans-serif;
+}
+
+body{
+    font-family: var(--poppins);
+    padding: 0 9.5rem;
+}
