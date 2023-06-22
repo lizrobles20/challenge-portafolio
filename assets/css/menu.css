@@ -1,0 +1,21 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.menu__logo{
+    color: var(--color-rosa-fuerte);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.menu__list{
+    display: flex;
+    gap: 2rem;
+}
+
+.menu__link{
+    color: var(--color-cenizo46);
+    text-decoration: none;
+}
