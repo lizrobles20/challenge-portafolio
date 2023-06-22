@@ -2,6 +2,7 @@
     display: flex;
     align-items: flex-end;
     padding-top: 30px;
+    padding-bottom: 60px;
 }
 
 .hero__profile{
@@ -78,4 +79,9 @@
 .hero__link.hero__link--linkedin:hover, 
 .hero__link.hero__link--github:hover{
     background: var(--color-amarillo-fuerte);
+}
+
+.wave{
+    position: relative;
+    width: 100%;
 }

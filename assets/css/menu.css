@@ -1,7 +1,8 @@
 .menu{
     display: flex;
     justify-content: space-between;
-    padding: 2rem 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .menu__logo{

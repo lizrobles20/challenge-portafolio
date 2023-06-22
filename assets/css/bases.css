@@ -16,6 +16,9 @@
 
 body{
     font-family: var(--poppins);
-    padding: 0 9.5rem;
     background-color: var(--background-blanco);
+}
+
+.container{
+    padding: 0 9.5rem;
 }
