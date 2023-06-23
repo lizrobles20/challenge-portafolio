@@ -18,6 +18,25 @@
 }
 
 .menu__link{
-    color: var(--color-cenizo46);
+    color: var(--color-cenizo56);
     text-decoration: none;
+}
+
+.menu__link:after{
+    content: "";
+    display: block;
+    margin-left: 0;
+    background-color: var(--color-rosa-fuerte);
+    height: 3px;
+    width: 0;
+    transition: 0.3s;
+}
+
+.menu__link:hover:after{
+    width: 100%;
+}
+
+.menu__link:hover,
+.menu__link:focus{
+    color: #000000;
 }

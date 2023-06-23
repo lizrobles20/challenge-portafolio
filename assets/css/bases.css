@@ -14,6 +14,10 @@
     --poppins: 'Poppins', sans-serif;
 }
 
+*{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: var(--poppins);
     background-color: var(--color-rosa-peach);
