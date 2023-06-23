@@ -1,0 +1,76 @@
+.skills{
+    background-color: var(--background-blanco);
+    padding-top: 4rem;
+}
+
+.skills__title{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-cenizo46);
+}
+
+.skills__container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: flex-start;
+    padding-top: 40px;
+    justify-content: center;
+}
+
+.skills__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 11rem;
+    height: 10rem;
+}
+
+.skills__img{
+    height: 50%;
+    object-fit: contain;
+    margin-bottom: 20px;
+    filter: grayscale(1);
+    transition: all .3s ease-in-out;
+}
+
+.skills__img:hover{
+    filter: grayscale(0);
+}
+
+.skills__container.skills__container--hobbies{
+    gap: 2rem;
+}
+
+.skills__text{
+    color: var(--color-cenizo46);
+    font-weight: 700;
+}
+
+.skills__hobbies{
+    margin-top: 60px;
+    padding-bottom: 80px;
+}
+
+.skills__box--hobbies{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--color-fresa-claro);
+    padding: .7rem;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: all .3s ease-in-out;
+}
+
+.skills__img--hobbies{
+    height: 1.4rem;
+    margin-left: 12px;
+    filter: opacity(.7);
+}
+
+.skills__box--hobbies:hover{
+    background-color: var(--color-amarillo-peach);
+}

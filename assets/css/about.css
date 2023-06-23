@@ -30,3 +30,8 @@
 .about__img--optional{
     width: 400px;
 }
+
+.about__img figcaption>a{
+    text-decoration: none;
+    color: var(--color-cenizo56);
+}

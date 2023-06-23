@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="assets/css/menu.css">
     <link rel="stylesheet" href="assets/css/hero.css">
     <link rel="stylesheet" href="assets/css/about.css">
+    <link rel="stylesheet" href="assets/css/skills.css">
 </head>
 <body>
     <header class="menu container">
@@ -20,8 +21,7 @@
         <nav>
             <ul class="menu__list">
                 <li class="menu__item"><a class="menu__link" href="">Sobre mí</a></li>
-                <li class="menu__item"><a class="menu__link" href="">Skills</a></li>
-                <li class="menu__item"><a class="menu__link" href="">Hobbies</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Skills y Hobbies</a></li>
                 <li class="menu__item"><a class="menu__link" href="">Formación</a></li>
                 <li class="menu__item"><a class="menu__link" href="">Proyectos</a></li>
                 <li class="menu__item"><a class="menu__link" href="">Contacto</a></li>
@@ -32,7 +32,7 @@
         <div class="hero__container">
             <h1 class="hero__title">Hola, soy Lizbeth Robles.</h1>
             <h2 class="hero__sub">Ingeniera en Sistemas Computacionales</h2>
-            <p class="hero__description">Enfocada en el desarrollo Front-End y el diseño UX, creo experiencias únicas centradas en el usuario. 
+            <p class="hero__description">Enfocada en el desarrollo Front-End y el diseño UX. Creo experiencias únicas centradas en el usuario. 
                <br> Actualmente curso la formación Front-End de Oracle ONE con Alura Latam.</p>
             <ul class="hero__social">
                 <li class="hero__item"><a href="" class="hero__link hero__link--cv">Curriculum <i class="uil uil-external-link-alt"></i></a></li>
@@ -54,9 +54,81 @@
                     </div>
                 <div class="about__img">
                     <figure>
-                        <img src="assets/img/sobre-mi-imagen.gif" alt="" class="about__img--optional">
-                        <figcaption>Illustration by <a href="https://icons8.com/illustrations/author/mNCLibjicqSz">Julia K</a> from <a href="https://icons8.com/illustrations">Ouch!</a></figcaption>
+                        <img src="assets/img/sobre-mi-imagen.gif" alt="" class="about__img--optional" loading="lazy">
+                        <figcaption>Illustration by <a href="https://icons8.com/illustrations/author/mNCLibjicqSz" target="_blank">Julia K</a> from <a href="https://icons8.com/illustrations" target="_blank">Ouch!</a></figcaption>
                     </figure>
+                </div>
+            </div>
+        </section>
+        <section class="skills container">
+            <div class="skills__tech">
+                <h3 class="skills__title">Skills</h3>
+                <div class="skills__container">
+                    <div class="skills__box">
+                        <img class="skills__img" src="assets/img/logos/html-logo.svg" alt="Logo de HTML5">
+                        <span class="skills__text">HTML5</span>
+                    </div>
+                    <div class="skills__box">
+                        <img class="skills__img" src="assets/img/logos/css-logo.svg" alt="Logo de CSS3">
+                        <span class="skills__text">CSS3</span>
+                    </div>
+                    <div class="skills__box">
+                        <img class="skills__img" src="assets/img/logos/js-logo.svg" alt="Logo de Javascript">
+                        <span class="skills__text">Javascript</span>
+                    </div>
+                    <div class="skills__box">
+                        <img class="skills__img" src="assets/img/logos/php-logo.svg" alt="Logo de php">
+                        <span class="skills__text">PHP</span>
+                    </div>
+                    <div class="skills__box">
+                        <img class="skills__img" src="assets/img/logos/java-logo.svg" alt="Logo de java">
+                        <span class="skills__text">Java</span>
+                    </div>
+                    <div class="skills__box">
+                        <img class="skills__img" src="assets/img/logos/mysql-logo.svg" alt="Logo de msql">
+                        <span class="skills__text">MySQL</span>
+                    </div>
+                    <div class="skills__box">
+                        <img class="skills__img" src="assets/img/logos/netbeans-logo.svg" alt="Logo de Netbeans">
+                        <span class="skills__text">Netbeans</span>
+                    </div>
+                    <div class="skills__box">
+                        <img class="skills__img" src="assets/img/logos/xampp-logo.svg" alt="Logo de XAMPP">
+                        <span class="skills__text">XAMPP</span>
+                    </div>
+                    <div class="skills__box">
+                        <img class="skills__img" src="assets/img/logos/vsc-logo.svg" alt="Logo de visual studio code">
+                        <span class="skills__text">VSC</span>
+                    </div>
+                    <div class="skills__box">
+                        <img class="skills__img" src="assets/img/logos/git-logo.svg" alt="Logo de Git">
+                        <span class="skills__text">Git</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills__hobbies">
+                <h3 class="skills__title">Hobbies</h3>
+                <div class="skills__container skills__container--hobbies">
+                    <div class="skills__box--hobbies">
+                        <span class="skills__text">Dibujar</span>
+                        <img class="skills__img--hobbies" src="assets/img/icons/draw-icon.svg" alt="Icon de lápiz">
+                    </div>
+                    <div class="skills__box--hobbies">
+                        <span class="skills__text">Jugar videojuegos</span>
+                        <img class="skills__img--hobbies" src="assets/img/icons/videogame-icon.svg" alt="Logo de CSS3">
+                    </div>
+                    <div class="skills__box--hobbies">
+                        <span class="skills__text">Escuchar música</span>
+                        <img class="skills__img--hobbies" src="assets/img/icons/headset-icon.svg" alt="Logo de Javascript">
+                    </div>
+                    <div class="skills__box--hobbies">
+                        <span class="skills__text">Ver videos</span>
+                        <img class="skills__img--hobbies" src="assets/img/icons/youtube-icon.svg" alt="Logo de php">
+                    </div>
+                    <div class="skills__box--hobbies">
+                        <span class="skills__text">Aprender</span>
+                        <img class="skills__img--hobbies" src="assets/img/icons/brain-icon.svg" alt="Logo de java">
+                    </div>
                 </div>
             </div>
         </section>
