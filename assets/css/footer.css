@@ -7,6 +7,10 @@
     padding-bottom: 2rem;
 }
 
+.footer__copy{
+    line-height: 1.3;
+}
+
 .footer__social{
     display: flex;
     gap: 1rem;

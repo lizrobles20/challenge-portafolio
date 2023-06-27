@@ -107,15 +107,15 @@
     .projects__img{
         width: 100%;
     }
+
+    .projects__content{
+        padding: 3rem 1rem 3rem 1rem;
+    }
 }
 
 @media screen and (max-width: 500px){
     .projects__img{
         width: 90%;
-    }
-
-    .projects__content{
-        padding: 3rem 1rem 3rem 1rem;
     }
 
     .projects__content--buttons{

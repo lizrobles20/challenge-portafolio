@@ -3,6 +3,7 @@
     align-items: center;
     background-color: var(--color-rosa-peach);
     margin-bottom: 60px;
+    padding-top: 3rem;
 }
 
 .about__container{
