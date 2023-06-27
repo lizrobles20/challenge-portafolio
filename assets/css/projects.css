@@ -67,28 +67,32 @@
     gap: 1rem;
 }
 
-.projects__content--link{
+.projects__link{
     text-decoration: none;
     padding: 1rem;
-    background: var(--color-rosa-peach);
     color: var(--color-cenizo46);
     font-weight: 500;
     border-radius: 10px;
     transition: all .3s ease-in-out;
 }
 
-.projects__content--link:hover{
+.projects__link.projects__link--demo{
+    background: var(--color-rosa-peach);
+}
+
+.projects__link.projects__link--demo:hover{
     background: var(--color-rosa-fuerte);
     color: #f5f5f5;
 }
 
-.projects__content--link:first-child{
+.projects__link.projects__link--repo{
     border: 2px solid var(--color-rosa-peach);
     background: none;
     transition: all .3s ease-in-out;
 }
 
-.projects__content--link:first-child:hover{
-    background: var(--color-rosa-peach);
-    color: var(--color-cenizo46);
+.projects__link.projects__link--repo:hover{
+    border: 2px solid var(--color-rosa-fuerte);
+    background: var(--color-rosa-fuerte);
+    color: #f5f5f5;
 }
