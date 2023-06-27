@@ -20,6 +20,7 @@
 .hero__title{
     font-size: 3.25rem;
     font-weight: 700;
+    line-height: 1.1;
     padding-bottom: 20px;
     background-image: linear-gradient(to left, #FFA6A6 25%, #FFC888);
     background-size: 100%;
@@ -35,6 +36,7 @@
     font-size: 2rem;
     font-weight: 700;
     padding-bottom: 20px;
+    line-height: 1.2;
 }
 
 .hero__description{
