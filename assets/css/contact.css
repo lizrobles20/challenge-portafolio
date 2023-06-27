@@ -22,6 +22,7 @@
     font-size: 1rem;
     font-weight: 500;
     margin-bottom: 1.5rem;
+    line-height: 1.3;
 }
 
 .contact__form label{
@@ -33,7 +34,8 @@
 }
 
 .contact__input{
-    display: block;
+    display: flex;
+    flex-direction: column;
     width: 100%;
     padding: .5rem;
     margin-bottom: 20px;
@@ -70,4 +72,38 @@
 .contact__img{
     object-fit: contain;
     padding-left: 3rem;
+}
+
+@media screen and (max-width: 1025px){
+    .contact{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .contact__container{
+        width: 100%;
+    }
+
+    .contact__form{
+        width: 100%;
+    }
+
+    .contact__title{
+        font-size: 1.7rem;
+    }
+
+    .contact__input{
+        width: 96%;
+    }
+
+    .contact__button{
+        width: 100%;
+    }
+
+    .contact__img{
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+    }
 }

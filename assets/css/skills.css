@@ -74,3 +74,9 @@
 .skills__box--hobbies:hover{
     background-color: var(--color-amarillo-peach);
 }
+
+@media screen and (max-width: 500px){
+    .skills__box{
+        width: 7rem;
+    }
+}

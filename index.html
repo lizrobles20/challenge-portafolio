@@ -22,13 +22,15 @@
 <body>
     <header class="menu container">
         <h2 class="menu__logo">Liz Dev.</h2>
+        <input type="checkbox" id="menu__bar">
+        <label for="menu__bar">&#9776;</label>
         <nav>
             <ul class="menu__list">
                 <li class="menu__item"><a class="menu__link" href="#about">Sobre mí</a></li>
                 <li class="menu__item"><a class="menu__link" href="#skills">Skills y Hobbies</a></li>
                 <li class="menu__item"><a class="menu__link" href="#education">Formación</a></li>
                 <li class="menu__item"><a class="menu__link" href="#projects">Proyectos</a></li>
-                <li class="menu__item"><a class="menu__link" href="">Contacto</a></li>
+                <li class="menu__item"><a class="menu__link" href="#contact">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -141,7 +143,7 @@
             <div class="education__container">
                 <details>
                     <summary>
-                        <span class="summary-title">Especialización FrontEnd / 2023 - Presente</span>
+                        <span class="summary-title">Especialización FrontEnd <br> 2023 - Presente</span>
                         <div class="summary-chevron-up">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
                         </div>
@@ -152,7 +154,7 @@
                 </details>
                 <details>
                     <summary>
-                        <span class="summary-title">Google UX Design Certificate / 2023 - Presente</span>
+                        <span class="summary-title">Google UX Design Certificate <br> 2023 - Presente</span>
                         <div class="summary-chevron-up">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
                         </div>
@@ -163,7 +165,7 @@
                 </details>
                 <details>
                     <summary>
-                        <span class="summary-title">Ingeniería en Sistemas Computacionales / 2018 - 2023</span>
+                        <span class="summary-title">Ingeniería en Sistemas Computacionales <br> 2018 - 2023</span>
                         <div class="summary-chevron-up">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
                         </div>
@@ -248,7 +250,7 @@
                 </div>
         </section>
         <img src="assets/img/wave-2.svg" alt="Wave divisor" class="wave">
-        <section class="contact container">
+        <section class="contact container" id="contact">
                 <div class="contact__container">
                     <h3 class="contact__title">¿Tienes una idea? Contáctame</h3>
                     <p class="contact__description">Completa el siguiente formulario y me contactaré con usted lo antes posible.</p>
@@ -268,7 +270,7 @@
                         <input type="submit" value="Enviar" class="contact__button">
                     </form>
                 </div>
-                <img class="contact__img" src="assets/img/bubble-gum-web-design.gif" alt="Gif ilustrativo">
+                <img class="contact__img" src="assets/img/bubble-gum-web-design.gif" alt="Gif ilustrativo" loading="lazy">
         </section>
     </main>
     <footer class="footer container">

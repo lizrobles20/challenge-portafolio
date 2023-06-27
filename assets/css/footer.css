@@ -25,3 +25,15 @@
 .footer__social a > i:hover{
     color: var(--color-rosa-fuerte);
 }
+
+@media screen and (max-width: 500px){
+    .footer{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer__social{
+        margin-top: 30px;
+    }
+}

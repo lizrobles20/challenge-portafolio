@@ -12,6 +12,17 @@
     font-weight: 700;
 }
 
+#menu__bar{
+    display: none;
+}
+
+.menu label{
+    font-size: 40px;
+    cursor: pointer;
+    display: none;
+    color: var(--color-cenizo56);
+}
+
 .menu__list{
     display: flex;
     gap: 2rem;
@@ -39,4 +50,14 @@
 .menu__link:hover,
 .menu__link:focus{
     color: #000000;
+}
+
+@media screen and (max-width: 769px){
+    .menu nav{
+        display: none;
+    }
+
+    .menu label{
+        display: initial;
+    }
 }

@@ -26,3 +26,15 @@ body{
 .container{
     padding: 0 9.5rem;
 }
+
+@media screen and (max-width: 769px){
+    .container{
+        padding: 0 5.5rem;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .container{
+        padding: 0 2rem;
+    }
+}

@@ -19,7 +19,7 @@ details {
 	background: var(--color-amarillo-peach);
 	border-radius: 8px;
 	position: relative;
-	width: 38rem;
+	max-width: 38rem;
 }
 
 .summary-title {
@@ -55,4 +55,12 @@ summary{
 
 summary::-webkit-details-marker {
 		display: none;
+}
+
+@media screen and (max-width: 500px){
+    .summary-title{
+		display: flex;
+		max-width: 300px;
+		line-height: 1.3;
+	}
 }

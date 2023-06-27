@@ -35,3 +35,20 @@
     text-decoration: none;
     color: var(--color-cenizo56);
 }
+
+@media screen and (max-width: 1025px){
+    .about__container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .about__description{
+        font-size: 1.1rem;
+    }
+    .about__img--optional{
+        width: 100%;
+        height: auto;
+    }
+}

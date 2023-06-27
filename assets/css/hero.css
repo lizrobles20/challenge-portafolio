@@ -88,3 +88,42 @@
     width: 100%;
     background-color: var(--background-blanco);
 }
+
+@media screen and (max-width: 1025px){
+    .hero{
+        flex-wrap: wrap-reverse;
+    }
+
+    .hero__profile{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 769px){
+    .hero__title{
+        font-size: 2.8rem;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .hero__container{
+        width: 100%;
+    }
+
+    .hero__title{
+        font-size: 2.6rem;
+    }
+
+    .hero__sub{
+        font-size: 1.8rem;
+    }
+    
+    .hero__social{
+        flex-wrap: wrap;
+    }
+
+    .hero__profile{
+        width: 100%;
+        height: auto;
+    }
+}
