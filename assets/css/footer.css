@@ -1,0 +1,27 @@
+.footer{
+    background: var(--color-vainilla-claro);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.footer__social{
+    display: flex;
+    gap: 1rem;
+}
+
+.footer__social a{
+    text-decoration: none;
+}
+
+.footer__social a > i{
+    font-size: 1.4rem;
+    color: var(--color-cenizo46);
+    transition: all .3s ease-in-out;
+}
+
+.footer__social a > i:hover{
+    color: var(--color-rosa-fuerte);
+}
