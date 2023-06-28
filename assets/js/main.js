@@ -1,4 +1,5 @@
 var nombre = document.getElementById("nombre");
+var correo = document.getElementById("correoelectronico");
 var nombreResult = document.getElementById("nombre-counter");
 var nombreLimit = 50;
 nombreResult.textContent = 0 + "/" + nombreLimit;
@@ -54,3 +55,28 @@ mensaje.addEventListener("input", function(){
         mensajeResult.style.color = "var(--color-cenizo56)";
     }
 });
+
+function sendMail() {
+        var params = {
+            subject: asunto.value,
+            name: nombre.value,
+            email: correo.value,
+            message: mensaje.value
+        };
+    
+        const serviceID = "service_lk5064b";
+        const templateID = "template_d6ybiph";
+    
+        emailjs
+            .send(serviceID, templateID, params)
+            .then((res) => {
+                asunto.value = "";
+                nombre.value = "";
+                correo.value = "";
+                mensaje.value = "";
+                console.log(res);
+                alert("Se ha enviado tu mensaje con éxito");
+            })
+            .catch((err) => console.log(err));
+    
+}

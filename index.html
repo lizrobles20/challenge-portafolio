@@ -23,9 +23,9 @@
             src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
     </script>
     <script type="text/javascript">
-    (function(){
-        emailjs.init("CZv7LRMkTAEZ3X5rM");
-    })();
+        (function(){
+            emailjs.init("CZv7LRMkTAEZ3X5rM");
+        })();
     </script>
 </head>
 <body>
@@ -272,20 +272,24 @@
                     <form class="contact__form">
                         <label for="nombre">Nombre</label>
                         <input type="text" id="nombre" class="contact__input" required placeholder="Tu nombre">
+                        <div class="error"></div>
                         <p class="contact__counter" id="nombre-counter"></p>
         
                         <label for="correoelectronico">Correo electrónico</label>
                         <input type="email"id="correoelectronico" class="contact__input" required placeholder="email@dominio.com">
+                        <div class="error"></div>
         
                         <label for="asunto">Asunto</label>
                         <input type="text" id="asunto" class="contact__input" required placeholder="Asunto del correo">
+                        <div class="error"></div>
                         <p class="contact__counter" id="asunto-counter"></p>
         
                         <label for="mensaje">Mensaje</label>
                         <textarea id="mensaje" cols="70" rows="5" class="contact__input" required placeholder="Escribe tu mensaje"></textarea>
+                        <div class="error"></div>
                         <p class="contact__counter" id="mensaje-counter"></p>
     
-                        <input type="submit" value="Enviar" class="contact__button">
+                        <input value="Enviar" class="contact__button" onclick="sendMail()">
                     </form>
                 </div>
                 <img class="contact__img" src="assets/img/bubble-gum-web-design.gif" alt="Gif ilustrativo" loading="lazy">

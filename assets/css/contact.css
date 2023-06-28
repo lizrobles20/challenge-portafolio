@@ -38,13 +38,13 @@
     flex-direction: column;
     width: 100%;
     padding: .5rem;
-    border: none;
     color: var(--color-cenizo46);
     font-size: 1rem;
     font-weight: 500;
     font-family: var(--poppins);
     resize: none;
     border-radius: 5px;
+    border: 2px solid #f0f0f0;
 }
 
 .contact__counter{
