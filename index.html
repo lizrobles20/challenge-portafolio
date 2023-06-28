@@ -269,27 +269,26 @@
                 <div class="contact__container">
                     <h3 class="contact__title">¿Tienes una idea? Contáctame</h3>
                     <p class="contact__description">Completa el siguiente formulario y me contactaré con usted lo antes posible.</p>
-                    <form class="contact__form">
+                    <form class="contact__form" id="form" action="/">
                         <label for="nombre">Nombre</label>
                         <input type="text" id="nombre" class="contact__input" required placeholder="Tu nombre">
-                        <div class="error"></div>
+                        <div class="contact__error contact__error--nombre"></div>
                         <p class="contact__counter" id="nombre-counter"></p>
         
                         <label for="correoelectronico">Correo electrónico</label>
                         <input type="email"id="correoelectronico" class="contact__input" required placeholder="email@dominio.com">
-                        <div class="error"></div>
         
                         <label for="asunto">Asunto</label>
                         <input type="text" id="asunto" class="contact__input" required placeholder="Asunto del correo">
-                        <div class="error"></div>
+                        <div class="contact__error contact__error--asunto"></div>
                         <p class="contact__counter" id="asunto-counter"></p>
         
                         <label for="mensaje">Mensaje</label>
                         <textarea id="mensaje" cols="70" rows="5" class="contact__input" required placeholder="Escribe tu mensaje"></textarea>
-                        <div class="error"></div>
+                        <div class="contact__error contact__error--mensaje"></div>
                         <p class="contact__counter" id="mensaje-counter"></p>
     
-                        <input value="Enviar" class="contact__button" onclick="sendMail()">
+                        <input type="submit" value="Enviar" class="contact__button" onclick="sendMail()">
                     </form>
                 </div>
                 <img class="contact__img" src="assets/img/bubble-gum-web-design.gif" alt="Gif ilustrativo" loading="lazy">

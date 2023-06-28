@@ -47,8 +47,13 @@
     border: 2px solid #f0f0f0;
 }
 
+.contact__error{
+    color: #ff3860;
+    font-size: 1rem;
+    margin-top: .5rem;
+}
+
 .contact__counter{
-    width: 100%;
     text-align: right;
     margin-top: 8px;
     color: var(--color-cenizo56);
