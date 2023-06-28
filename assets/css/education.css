@@ -10,13 +10,18 @@
     font-weight: 700;
 }
 
+.education__container{
+	display: flex;
+	flex-direction: column;
+}
+
 details {
 	font-size: 1rem;
 	margin: 2rem auto;
 	box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
 		0 10px 10px -5px rgba(0, 0, 0, 0.04);
 	width: 100%;
-	background: var(--color-amarillo-peach);
+	background: var(--color-vainilla-claro);
 	border-radius: 8px;
 	position: relative;
 	max-width: 38rem;
@@ -34,6 +39,11 @@ details {
     padding: 1em;
     font-weight: 400;
     line-height: 1.5;
+	text-align: center;
+}
+
+.summary-logo{
+	width: 70%;
 }
 
 summary{
@@ -51,7 +61,7 @@ summary{
 		position: absolute;
 		top: 0.75em;
 		right: 1em;
-		background: var(--color-amarillo-peach);
+		background: var(--color-vainilla-claro);
 	}
 
 summary::-webkit-details-marker {

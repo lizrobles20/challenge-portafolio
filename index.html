@@ -18,6 +18,15 @@
     <link rel="stylesheet" href="assets/css/projects.css">
     <link rel="stylesheet" href="assets/css/contact.css">
     <link rel="stylesheet" href="assets/css/footer.css">
+
+    <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init("CZv7LRMkTAEZ3X5rM");
+    })();
+    </script>
 </head>
 <body>
     <header class="menu container">
@@ -143,34 +152,40 @@
             <div class="education__container">
                 <details>
                     <summary>
-                        <span class="summary-title">Especialización FrontEnd <br> 2023 - Presente</span>
+                        <span class="summary-title">Especialización FrontEnd <br><br> 2023 - Presente</span>
                         <div class="summary-chevron-up">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
                         </div>
                     </summary>
-                    <div class="summary-content">Oracle Next Education con Alura Latam</div>
+                    <div class="summary-content">
+                        Programa Oracle Next Education con Alura Latam
+                    </div>
                     <div class="summary-chevron-down">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg>  
                 </details>
                 <details>
                     <summary>
-                        <span class="summary-title">Google UX Design Certificate <br> 2023 - Presente</span>
+                        <span class="summary-title">Google UX Design Certificate <br><br> 2023 - Presente</span>
                         <div class="summary-chevron-up">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
                         </div>
                     </summary>
-                    <div class="summary-content">Coursera</div>
+                    <div class="summary-content">
+                        Coursera
+                    </div>
                     <div class="summary-chevron-down">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg>  
                 </details>
                 <details>
                     <summary>
-                        <span class="summary-title">Ingeniería en Sistemas Computacionales <br> 2018 - 2023</span>
+                        <span class="summary-title">Ingeniería en Sistemas Computacionales <br><br> 2018 - 2023</span>
                         <div class="summary-chevron-up">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
                         </div>
                     </summary>
-                    <div class="summary-content">Universidad Juárez Autónoma de Tabasco</div>
+                    <div class="summary-content">
+                        Universidad Juárez Autónoma de Tabasco
+                    </div>
                     <div class="summary-chevron-down">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg>  
                 </details>
@@ -257,15 +272,18 @@
                     <form class="contact__form">
                         <label for="nombre">Nombre</label>
                         <input type="text" id="nombre" class="contact__input" required placeholder="Tu nombre">
+                        <p class="contact__counter" id="nombre-counter"></p>
         
                         <label for="correoelectronico">Correo electrónico</label>
                         <input type="email"id="correoelectronico" class="contact__input" required placeholder="email@dominio.com">
         
                         <label for="asunto">Asunto</label>
                         <input type="text" id="asunto" class="contact__input" required placeholder="Asunto del correo">
+                        <p class="contact__counter" id="asunto-counter"></p>
         
                         <label for="mensaje">Mensaje</label>
                         <textarea id="mensaje" cols="70" rows="5" class="contact__input" required placeholder="Escribe tu mensaje"></textarea>
+                        <p class="contact__counter" id="mensaje-counter"></p>
     
                         <input type="submit" value="Enviar" class="contact__button">
                     </form>
@@ -281,5 +299,6 @@
             <a href="mailto:lizirobles20@gmail.com"><i class="uil uil-envelope"></i></a>
         </div>
     </footer>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
