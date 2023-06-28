@@ -1,5 +1,7 @@
 .contact{
     display: flex;
+    gap: 4rem;
+    align-items: center;
     justify-content: center;
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -49,6 +51,7 @@
 
 .contact__error{
     color: #ff3860;
+    font-weight: 500;
     font-size: 1rem;
     margin-top: .5rem;
 }
@@ -82,8 +85,23 @@
 }
 
 .contact__img{
+    text-align: center;
+}
+
+.contact__img figcaption > a{
+    text-decoration: none;
+    color: var(--color-cenizo56);
+}
+
+.contact__img img{
+    width: 350px;
     object-fit: contain;
     padding-left: 3rem;
+}
+
+.contact__img img + figcaption{
+    margin-top: 10px;
+    font-size: .8rem;
 }
 
 @media screen and (max-width: 1025px){
@@ -113,7 +131,7 @@
         width: 100%;
     }
 
-    .contact__img{
+    .contact__img img{
         width: 100%;
         height: auto;
         padding-left: 0;

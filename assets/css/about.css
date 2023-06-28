@@ -8,6 +8,7 @@
 
 .about__container{
     display: flex;
+    gap: 2rem;
     width: 100%;
 }
 
@@ -29,7 +30,11 @@
 }
 
 .about__img--optional{
-    width: 400px;
+    width: 300px;
+}
+
+.about__img--optional + figcaption{
+    font-size: .8rem;
 }
 
 .about__img figcaption>a{
