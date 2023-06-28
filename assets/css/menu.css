@@ -58,7 +58,35 @@
         display: none;
     }
 
+    /* .menu__list{
+        float: none;
+        position: fixed;
+        z-index: 9;
+        left: 0;
+        right: 0;
+        top: 100px;
+        bottom: 0;
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+        background-color: rgba(0,0,0,.8);
+        overflow: hidden;
+        display: none;
+    }
+
+    .menu__link{
+        font-size: 1.5rem;
+        color: #f0f0f0;
+    } */
+
     .menu label{
         display: initial;
     }
+
+    /* #menu__bar:checked ~ .menu__list{
+        display: initial;
+    } */
 }
