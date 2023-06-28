@@ -15,12 +15,12 @@ nombre.addEventListener("input", function(){
 
     if(nombreLength > nombreLimit){
         errorNombre.innerText = 'El nombre debe tener máximo 50 caracteres';
-        nombre.style.color = "#FF2851";
+        nombre.style.borderColor = "#FF2851";
         nombreResult.style.color = "#FF2851";
     }
     else{
         errorNombre.innerText = '';
-        nombre.style.color = "var(--color-cenizo46)";
+        nombre.style.borderColor = "#f0f0f0";
         nombreResult.style.color = "var(--color-cenizo56)";
     }
 });
@@ -36,12 +36,12 @@ asunto.addEventListener("input", function(){
 
     if(asuntoLength > asuntoLimit){
         errorAsunto.innerText = 'El asunto debe tener máximo 50 caracteres';
-        asunto.style.color = "#FF2851";
+        asunto.style.borderColor = "#FF2851";
         asuntoResult.style.color = "#FF2851";
     }
     else{
         errorAsunto.innerText = '';
-        asunto.style.color = "var(--color-cenizo46)";
+        asunto.style.borderColor = "#f0f0f0";
         asuntoResult.style.color = "var(--color-cenizo56)";
     }
 });
@@ -57,12 +57,12 @@ mensaje.addEventListener("input", function(){
 
     if(mensajeLength > mensajeLimit){
         errorMensaje.innerText = 'El mensaje debe tener máximo 300 caracteres';
-        mensaje.style.color = "#FF2851";
+        mensaje.style.borderColor = "#FF2851";
         mensajeResult.style.color = "#FF2851";
     }
     else{
         errorMensaje.innerText = '';
-        mensaje.style.color = "var(--color-cenizo46)";
+        mensaje.style.borderColor = "#f0f0f0";
         mensajeResult.style.color = "var(--color-cenizo56)";
     }
 });
