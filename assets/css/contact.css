@@ -5,6 +5,7 @@
     justify-content: center;
     padding-top: 3rem;
     padding-bottom: 3rem;
+    scroll-margin-top: 5em;
 }
 
 .contact__container{

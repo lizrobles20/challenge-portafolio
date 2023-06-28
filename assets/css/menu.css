@@ -1,10 +1,24 @@
 .menu{
+    position: fixed;
+    z-index: 999;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: calc(100% - (9.5rem*2));
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1em;
     padding-top: 2rem;
     padding-bottom: 2rem;
     background-color: var(--background-blanco);
+    transition: ease 1s; 
+}
+
+.menu.sticky{
+    height: 1em;
+    background: var(--background-blanco);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .menu__logo{
@@ -25,6 +39,8 @@
 }
 
 .menu__list{
+    position: relative;
+    width: 100%;
     display: flex;
     gap: 2rem;
 }
@@ -54,18 +70,21 @@
 }
 
 @media screen and (max-width: 769px){
-    .menu nav{
-        display: none;
+    .menu{
+        width: calc(100% - (5.5rem*2));
     }
 
-    /* .menu__list{
+    .menu nav{
+        position: absolute;
+    }
+    nav .menu__list{
         float: none;
         position: fixed;
         z-index: 9;
         left: 0;
         right: 0;
-        top: 100px;
-        bottom: 0;
+        top: 80px;
+        bottom: 100%;
         width: auto;
         height: auto;
         flex-direction: column;
@@ -74,19 +93,25 @@
         gap: 4rem;
         background-color: rgba(0,0,0,.8);
         overflow: hidden;
-        display: none;
+        transition: all .5s ease-in-out;
     }
 
     .menu__link{
         font-size: 1.5rem;
         color: #f0f0f0;
-    } */
-
-    .menu label{
-        display: initial;
     }
 
-    /* #menu__bar:checked ~ .menu__list{
-        display: initial;
-    } */
+    .menu label{
+        display: block;
+    }
+
+    #menu__bar:checked ~ nav .menu__list{
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .menu{
+        width: calc(100% - (1.8rem*2));
+    }
 }

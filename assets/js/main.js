@@ -1,3 +1,9 @@
+//EFECTO DE NAVEGACION EFECTO DE SCROLL
+window.addEventListener("scroll", function(){
+    const header = document.querySelector("header");
+    header.classList.toggle("sticky", window.scrollY > 0 );
+  });
+
 var form = document.getElementById("form");
 var nombre = document.getElementById("nombre");
 var correo = document.getElementById("correoelectronico");

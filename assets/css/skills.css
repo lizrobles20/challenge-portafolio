@@ -1,6 +1,7 @@
 .skills{
     background-color: var(--background-blanco);
     padding-top: 4rem;
+    scroll-margin-top: 5em;
 }
 
 .skills__title{
