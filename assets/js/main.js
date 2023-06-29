@@ -44,6 +44,7 @@ nombre.addEventListener("input", function(){
     }
 });
 
+//CÓDIGO PARA CONTAR LOS CARACTERES DEL INPUT ASUNTO EN CONTACTO
 var asuntoResult = document.getElementById("asunto-counter");
 var asuntoLimit = 50;
 asuntoResult.textContent = 0 + "/" + asuntoLimit;
@@ -65,6 +66,7 @@ asunto.addEventListener("input", function(){
     }
 });
 
+//CÓDIGO PARA CONTAR LOS CARACTERES DEL TEXT AREA MENSAJE EN CONTACTO
 var mensajeResult = document.getElementById("mensaje-counter");
 var mensajeLimit = 300;
 mensajeResult.textContent = 0 + "/" + mensajeLimit;
@@ -86,11 +88,12 @@ mensaje.addEventListener("input", function(){
     }
 });
 
+//SE ELIMINA EL EVENTO SUBMIT
 form.addEventListener('submit', e => {
     e.preventDefault();
 });
 
-
+//CÓDIGO PARA ENVIAR DATOS DE CONTACTO A TRAVÉS DE EMAILJS
 function sendMail() {
     if(asunto.value != '' &&
        nombre.value != '' &&
