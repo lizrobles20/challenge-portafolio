@@ -4,12 +4,25 @@ window.addEventListener("scroll", function(){
     header.classList.toggle("sticky", window.scrollY > 0 );
   });
 
+
+//FUNCIÓN PARA CERRAR EL MENÚ AL HACER CLIC EN UN LINK DEL MENÚ EN MODO RESPONSIVO
+  const propertyLinks = document.querySelectorAll('.menu__link');
+  const checkbox = document.getElementById('menu__bar');
+
+  propertyLinks.forEach(function(link) {
+    link.addEventListener('click', function() {
+      checkbox.checked = false;
+    });
+  });
+
+//VARIABLES PARA LEER EL FORM Y LOS INPUTS DE CONTACTO
 var form = document.getElementById("form");
 var nombre = document.getElementById("nombre");
 var correo = document.getElementById("correoelectronico");
 var asunto = document.getElementById("asunto");
 var mensaje = document.getElementById("mensaje");
 
+//CÓDIGO PARA CONTAR LOS CARACTERES DEL INPUT NOMBRE EN CONTACTO
 var nombreResult = document.getElementById("nombre-counter");
 var nombreLimit = 50;
 nombreResult.textContent = 0 + "/" + nombreLimit;
