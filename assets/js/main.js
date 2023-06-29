@@ -92,7 +92,7 @@ mensaje.addEventListener("input", function(){
 form.addEventListener('submit', e => {
     e.preventDefault();
 });
-/* 
+
 //CÓDIGO PARA ENVIAR DATOS DE CONTACTO A TRAVÉS DE EMAILJS
 function sendMail() {
     if(asunto.value != '' &&
@@ -128,4 +128,3 @@ function sendMail() {
             .catch((err) => console.log(err));
     }
 }
- */
