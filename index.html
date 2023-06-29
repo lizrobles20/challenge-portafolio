@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liz Robles | Portafolio</title>
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">  
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/bases.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/hero.css">
+    <link rel="stylesheet" href="assets/css/about.css">
+    <link rel="stylesheet" href="assets/css/skills.css">
+    <link rel="stylesheet" href="assets/css/education.css">
+    <link rel="stylesheet" href="assets/css/projects.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+
+    <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("CZv7LRMkTAEZ3X5rM");
+        })();
+    </script>
+    
+</head>
+<body>
+    <header class="menu container">
+        <h2 class="menu__logo">Liz Dev.</h2>
+        <input type="checkbox" id="menu__bar">
+        <label for="menu__bar">&#9776;</label>
+        <nav>
+            <ul class="menu__list">
+                <li class="menu__item"><a class="menu__link" href="#about">Sobre mí</a></li>
+                <li class="menu__item"><a class="menu__link" href="#skills">Skills y Hobbies</a></li>
+                <li class="menu__item"><a class="menu__link" href="#education">Formación</a></li>
+                <li class="menu__item"><a class="menu__link" href="#projects">Proyectos</a></li>
+                <li class="menu__item"><a class="menu__link" href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero container">
+        <div class="hero__container">
+            <h1 class="hero__title">Hola, soy Lizbeth Robles.</h1>
+            <h2 class="hero__sub">Ingeniera en Sistemas Computacionales</h2>
+            <p class="hero__description">Enfocada en el desarrollo Front-End y el diseño UX. Creo experiencias únicas centradas en el usuario. 
+               <br>Actualmente curso la formación Front-End del programa ONE con Alura Latam.</p>
+            <ul class="hero__social">
+                <li class="hero__item"><a href="assets/documents/CV - Lizbeth Robles Hernández.pdf" target="_blank" class="hero__link hero__link--cv">Curriculum <i class="uil uil-external-link-alt"></i></a></li>
+                <li class="hero__item"><a href="https://www.linkedin.com/in/lizrobles20/" target="_blank" class="hero__link hero__link--linkedin">LinkedIn <i class="uil uil-linkedin"></i></a></li>
+                <li class="hero__item"><a href="https://github.com/lizrobles20" target="_blank" class="hero__link hero__link--github">Github <i class="uil uil-github"></i></a></li>
+            </ul>
+        </div>
+        <img src="assets/img/foto-perfil.webp" alt="Foto de perfil" class="hero__profile">
+    </section>
+    <img src="assets/img/wave-2.svg" alt="Wave divisor" class="wave">
+    <main>
+        <section class="about container" id="about">
+            <div class="about__container">
+                <div class="about__text">
+                    <h3 class="about__title">Sobre mí</h3>
+                    <p class="about__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. 
+                        <br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.</p>
+                    </div>
+                <div class="about__img">
+                    <figure>
+                        <img src="assets/img/about.png" alt="Imagen tipo 3D ilustrativa" class="about__img--optional" loading="lazy">
+                        <figcaption>Illustration by <a href="https://icons8.com/illustrations/author/zD2oqC8lLBBA">Icons 8</a> from <a href="https://icons8.com/illustrations" target="_blank">Ouch!</a></figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section class="skills container" id="skills">
+            <div class="skills__tech">
+                <h3 class="skills__title">Skills</h3>
+                <div class="skills__container">
+                    <div class="skills__box">
+                        <img class="skills__img" src="assets/img/logos/html-logo.svg" alt="Logo de HTML5">
+                        <span class="skills__text">HTML5</span>
+                    </div>
+                    <div class="skills__box">
+                        <img class="skills__img" src="assets/img/logos/css-logo.svg" alt="Logo de CSS3">
+                        <span class="skills__text">CSS3</span>
+                    </div>
+                    <div class="skills__box">
+                        <img class="skills__img" src="assets/img/logos/js-logo.svg" alt="Logo de Javascript">
+                        <span class="skills__text">Javascript</span>
+                    </div>
+                    <div class="skills__box">
+                        <img class="skills__img" src="assets/img/logos/php-logo.svg" alt="Logo de PHP">
+                        <span class="skills__text">PHP</span>
+                    </div>
+                    <div class="skills__box">
+                        <img class="skills__img" src="assets/img/logos/java-logo.svg" alt="Logo de java">
+                        <span class="skills__text">Java</span>
+                    </div>
+                    <div class="skills__box">
+                        <img class="skills__img" src="assets/img/logos/mysql-logo.svg" alt="Logo de msql">
+                        <span class="skills__text">MySQL</span>
+                    </div>
+                    <div class="skills__box">
+                        <img class="skills__img" src="assets/img/logos/netbeans-logo.svg" alt="Logo de Netbeans">
+                        <span class="skills__text">Netbeans</span>
+                    </div>
+                    <div class="skills__box">
+                        <img class="skills__img" src="assets/img/logos/xampp-logo.svg" alt="Logo de XAMPP">
+                        <span class="skills__text">XAMPP</span>
+                    </div>
+                    <div class="skills__box">
+                        <img class="skills__img" src="assets/img/logos/vsc-logo.svg" alt="Logo de visual studio code">
+                        <span class="skills__text">VSC</span>
+                    </div>
+                    <div class="skills__box">
+                        <img class="skills__img" src="assets/img/logos/git-logo.svg" alt="Logo de Git">
+                        <span class="skills__text">Git</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills__hobbies">
+                <h3 class="skills__title">Hobbies</h3>
+                <div class="skills__container skills__container--hobbies">
+                    <div class="skills__box--hobbies">
+                        <span class="skills__text">Dibujar</span>
+                        <img class="skills__img--hobbies" src="assets/img/icons/draw-icon.svg" alt="Icon de lápiz">
+                    </div>
+                    <div class="skills__box--hobbies">
+                        <span class="skills__text">Jugar videojuegos</span>
+                        <img class="skills__img--hobbies" src="assets/img/icons/videogame-icon.svg" alt="Icon de control para videojuego">
+                    </div>
+                    <div class="skills__box--hobbies">
+                        <span class="skills__text">Escuchar música</span>
+                        <img class="skills__img--hobbies" src="assets/img/icons/headset-icon.svg" alt="Icon de audífonos">
+                    </div>
+                    <div class="skills__box--hobbies">
+                        <span class="skills__text">Ver videos</span>
+                        <img class="skills__img--hobbies" src="assets/img/icons/youtube-icon.svg" alt="Icon de Youtube">
+                    </div>
+                    <div class="skills__box--hobbies">
+                        <span class="skills__text">Aprender</span>
+                        <img class="skills__img--hobbies" src="assets/img/icons/brain-icon.svg" alt="Icon de cerebro">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="education container" id="education">
+            <h3 class="education__title">Educación</h3>
+            <div class="education__container">
+                <details>
+                    <summary>
+                        <span class="summary-title">Especialización FrontEnd <br><br> 2023 - Presente</span>
+                        <div class="summary-chevron-up">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </div>
+                    </summary>
+                    <div class="summary-content">
+                        Programa Oracle Next Education con Alura Latam
+                    </div>
+                    <div class="summary-chevron-down">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg>  
+                </details>
+                <details>
+                    <summary>
+                        <span class="summary-title">Google UX Design Certificate <br><br> 2023 - Presente</span>
+                        <div class="summary-chevron-up">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </div>
+                    </summary>
+                    <div class="summary-content">
+                        Coursera
+                    </div>
+                    <div class="summary-chevron-down">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg>  
+                </details>
+                <details>
+                    <summary>
+                        <span class="summary-title">Ingeniería en Sistemas Computacionales <br><br> 2018 - 2023</span>
+                        <div class="summary-chevron-up">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </div>
+                    </summary>
+                    <div class="summary-content">
+                        Universidad Juárez Autónoma de Tabasco
+                    </div>
+                    <div class="summary-chevron-down">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg>  
+                </details>
+            </div>
+        </section>
+        <section class="projects container" id="projects">
+            <h3 class="projects__title">Proyectos</h3>
+                <div class="projects__container">
+                    <div class="projects__card">
+                        <img src="assets/img/proyectos/Mockup - Encriptador.png" alt="Proyecto Encriptador" class="projects__img" loading="lazy">
+                        <div class="projects__content">
+                            <div class="projects__content--skills">
+                                <img src="assets/img/logos/html-logo.svg" alt="">
+                                <img src="assets/img/logos/css-logo.svg" alt="">
+                                <img src="assets/img/logos/js-logo.svg" alt="">
+                            </div>
+                            <h3 class="projects__content--title">Encriptador de texto</h3>
+                            <p class="projects__content--description">Proyecto hecho con HTML5, CSS3 y Javascript. Encripta cualquier texto reemplazando las vocales por alguna palabra corta. No se permite ingresar mayúsculas, acentos o cualquier caracter especial. También es posible desencriptar textos que ya han sido encriptados.
+                                Fue el primer challenge del programa Oracle Next Education con Alura Latam.</p>
+                            <div class="projects__content--buttons">
+                                <a class="projects__link projects__link--repo" href="https://github.com/lizrobles20/challengeEncriptadorG5" target="_blank">Repositorio <i class="uil uil-github"></i></a>
+                                <a class="projects__link projects__link--demo" href="https://lizrobles20.github.io/challengeEncriptadorG5/" target="_blank">Ver demo <i class="uil uil-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects__card">
+                        <img src="assets/img/proyectos/Mockup - Catra.png" alt="Proyecto Catra" class="projects__img" loading="lazy">
+                        <div class="projects__content">
+                            <div class="projects__content--skills">
+                                <img src="assets/img/logos/html-logo.svg" alt="">
+                                <img src="assets/img/logos/css-logo.svg" alt="">
+                                <img src="assets/img/logos/js-logo.svg" alt="">
+                                <img src="assets/img/logos/php-logo.svg" alt="">
+                                <img src="assets/img/logos/mysql.svg" alt="">
+                            </div>
+                            <h3 class="projects__content--title">Repostería Catra</h3>
+                            <p class="projects__content--description">Proyecto hecho con HTML5, CSS3 y Javascript. Encripta cualquier texto reemplazando las vocales por alguna palabra corta. No se permite ingresar mayúsculas, acentos o cualquier caracter especial. También es posible desencriptar textos que ya han sido encriptados.
+                                Fue el primer challenge del programa Oracle Next Education con Alura Latam.</p>
+                            <div class="projects__content--buttons">
+                                <a class="projects__link projects__link--repo" href="">Repositorio <i class="uil uil-github"></i></a>
+                                <a class="projects__link projects__link--demo" href="">Ver demo <i class="uil uil-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects__card">
+                        <img src="assets/img/proyectos/Mockup - Laguna.png" alt="Proyecto Laguna" class="projects__img" loading="lazy">
+                        <div class="projects__content">
+                            <div class="projects__content--skills">
+                                <img src="assets/img/logos/html-logo.svg" alt="">
+                                <img src="assets/img/logos/css-logo.svg" alt="">
+                                <img src="assets/img/logos/js-logo.svg" alt="">
+                            </div>
+                            <h3 class="projects__content--title">Laguna de las Ilusiones</h3>
+                            <p class="projects__content--description">Proyecto hecho con HTML5, CSS3 y Javascript. Encripta cualquier texto reemplazando las vocales por alguna palabra corta. No se permite ingresar mayúsculas, acentos o cualquier caracter especial. También es posible desencriptar textos que ya han sido encriptados.
+                                Fue el primer challenge del programa Oracle Next Education con Alura Latam.</p>
+                            <div class="projects__content--buttons">
+                                <a class="projects__link projects__link--demo" href="">Ver demo <i class="uil uil-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects__card">
+                        <img src="assets/img/proyectos/Mockup - Software.png" alt="Proyecto Software" class="projects__img" loading="lazy">
+                        <div class="projects__content">
+                            <div class="projects__content--skills">
+                                <img src="assets/img/logos/java-logo.svg" alt="">
+                                <img src="assets/img/logos/mysql.svg" alt="">
+                                <img src="assets/img/logos/netbeans-logo.svg" alt="">
+                            </div>
+                            <h3 class="projects__content--title">Sistema de evaluación y diagnóstico de padecimientos</h3>
+                            <p class="projects__content--description">Proyecto hecho con HTML5, CSS3 y Javascript. Encripta cualquier texto reemplazando las vocales por alguna palabra corta. No se permite ingresar mayúsculas, acentos o cualquier caracter especial. También es posible desencriptar textos que ya han sido encriptados.
+                                Fue el primer challenge del programa Oracle Next Education con Alura Latam.</p>
+                            <div class="projects__content--buttons">
+                                <a class="projects__link projects__link--repo" href="">Repositorio <i class="uil uil-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <img src="assets/img/wave-2.svg" alt="Wave divisor" class="wave">
+        <section class="contact container" id="contact">
+                <div class="contact__container">
+                    <h3 class="contact__title">¿Tienes una idea? Contáctame</h3>
+                    <p class="contact__description">Completa el siguiente formulario y me contactaré con usted lo antes posible.</p>
+                    <form class="contact__form" id="form" action="/">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" class="contact__input" required placeholder="Tu nombre">
+                        <div class="contact__error contact__error--nombre"></div>
+                        <p class="contact__counter" id="nombre-counter"></p>
+        
+                        <label for="correoelectronico">Correo electrónico</label>
+                        <input type="email"id="correoelectronico" class="contact__input" required placeholder="email@dominio.com">
+        
+                        <label for="asunto">Asunto</label>
+                        <input type="text" id="asunto" class="contact__input" required placeholder="Asunto del correo">
+                        <div class="contact__error contact__error--asunto"></div>
+                        <p class="contact__counter" id="asunto-counter"></p>
+        
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" cols="70" rows="5" class="contact__input" required placeholder="Escribe tu mensaje"></textarea>
+                        <div class="contact__error contact__error--mensaje"></div>
+                        <p class="contact__counter" id="mensaje-counter"></p>
+    
+                        <input type="submit" value="Enviar" class="contact__button" onclick="sendMail()">
+                    </form>
+                </div>
+                <figure class="contact__img">
+                    <img src="assets/img/contact.png" alt="Imagen tipo 3D ilustrativa" loading="lazy">
+                    <figcaption>Illustration by <a href="https://icons8.com/illustrations/author/zD2oqC8lLBBA">Icons 8</a> from <a href="https://icons8.com/illustrations" target="_blank">Ouch!</a></figcaption>
+                </figure>
+        </section>
+    </main>
+    <footer class="footer container">
+        <p class="footer__copy">&copy; Desarrollado por Lizbeth Robles 💗 2023</p>
+        <div class="footer__social">
+            <a href="https://www.linkedin.com/in/lizrobles20/" target="_blank"><i class="uil uil-linkedin"></i></a>
+            <a href="https://github.com/lizrobles20" target="_blank"><i class="uil uil-github"></i></a>
+            <a href="mailto:lizirobles20@gmail.com"><i class="uil uil-envelope"></i></a>
+        </div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal({
+            reset: false,
+            distance: '60px',
+            duration: 2500,
+            delay:400
+        });
+
+        ScrollReveal().reveal('.hero__profile', {delay: 100, origin: 'bottom'});
+        ScrollReveal().reveal('.hero__title, .hero__sub, .hero__description', {delay: 100, origin: 'left'});
+        ScrollReveal().reveal('.hero__social li', {delay: 100, origin: 'bottom', interval: 200});
+        ScrollReveal().reveal('.about__text', {delay: 100, origin: 'left'});
+        ScrollReveal().reveal('.about__img', {delay: 100, origin: 'bottom'});
+        ScrollReveal().reveal('.skills__tech', {delay: 100, origin: 'bottom'});
+        ScrollReveal().reveal('.skills__hobbies', {delay: 50, origin: 'bottom'});
+        ScrollReveal().reveal('details', {delay: 50, origin: 'bottom'});
+        ScrollReveal().reveal('.projects__img', {delay: 200, origin: 'left'});
+    </script>
+</body>
+</html>
