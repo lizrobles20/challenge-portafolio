@@ -91,15 +91,16 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 4rem;
-        background-color: rgba(0,0,0,.8);
+        gap: 1.4rem;
+        background-color: var(--background-blanco);
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
         overflow: hidden;
         transition: all .5s ease-in-out;
     }
 
     .menu__link{
-        font-size: 1.5rem;
-        color: #f0f0f0;
+        font-size: 1.2rem;
+        color: var(--color-cenizo56);
     }
 
     .menu label{
@@ -107,7 +108,7 @@
     }
 
     #menu__bar:checked ~ nav .menu__list{
-        bottom: 0;
+        bottom: 60%;
     }
 }
 
