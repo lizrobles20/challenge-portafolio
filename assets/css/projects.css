@@ -76,6 +76,7 @@
     font-weight: 500;
     border-radius: 10px;
     transition: all .3s ease-in-out;
+    border: 2px solid var(--color-rosa-peach);
 }
 
 .projects__link.projects__link--demo{
@@ -83,12 +84,12 @@
 }
 
 .projects__link.projects__link--demo:hover{
+    border: 2px solid var(--color-rosa-fuerte);
     background: var(--color-rosa-fuerte);
     color: #f5f5f5;
 }
 
 .projects__link.projects__link--repo{
-    border: 2px solid var(--color-rosa-peach);
     background: none;
     transition: all .3s ease-in-out;
 }

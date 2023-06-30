@@ -91,9 +91,9 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 1.4rem;
+        gap: 1.5rem;
         background-color: var(--background-blanco);
-        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
         overflow: hidden;
         transition: all .5s ease-in-out;
     }
@@ -108,7 +108,7 @@
     }
 
     #menu__bar:checked ~ nav .menu__list{
-        bottom: 60%;
+        bottom: 450px;
     }
 }
 
