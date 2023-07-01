@@ -89,20 +89,10 @@
     text-align: center;
 }
 
-.contact__img figcaption > a{
-    text-decoration: none;
-    color: var(--color-cenizo56);
-}
-
 .contact__img img{
     width: 350px;
     object-fit: contain;
     padding-left: 3rem;
-}
-
-.contact__img img + figcaption{
-    margin-top: 10px;
-    font-size: .8rem;
 }
 
 @media screen and (max-width: 1025px){

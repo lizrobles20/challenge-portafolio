@@ -32,16 +32,7 @@
 }
 
 .about__img--optional{
-    width: 300px;
-}
-
-.about__img--optional + figcaption{
-    font-size: .8rem;
-}
-
-.about__img figcaption>a{
-    text-decoration: none;
-    color: var(--color-cenizo56);
+    width: 370px;
 }
 
 @media screen and (max-width: 1025px){
